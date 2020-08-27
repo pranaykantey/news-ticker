@@ -1,0 +1,20 @@
+.news-ticker li {
+    display: none;
+}
+.news-ticker li.active {
+    display: block;
+}
+.faded {
+    animation-name: fadeTicker;
+    animation-duration: 1s;
+}
+@keyframes fadeTicker {
+    0%  {
+        margin-left: 50px;
+        background: orange;
+    }
+    100% {
+        margin-left: 0;
+        background: floralwhite;
+    }
+}
