@@ -76,7 +76,7 @@
                     count++;
                 }
             }
-        }else if(  $(this).attr('data-type') === 'typeing' ){
+        }else if(  $(this).attr('data-type') === 'typing' ){
             // do this code if the ticker type is typing
             // hiding default list
             target.children('ul').css('display','none');
